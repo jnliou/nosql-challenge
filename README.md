@@ -18,9 +18,9 @@ In this part, the focus is on setting up the database and Jupyter Notebook envir
 
 First ensure that you are in the correct path where the 'establishments.json' file is located then import establishments.json using the mongoimport command:
 
- ```shell
+ 
     mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
-    ```
+    
 Then the following was completed for set up:
 
 Creating a database named "uk_food" and a collection named "establishments".
