@@ -1,17 +1,19 @@
 # nosql-challenge
 
-# Overview
+![Food](Resources/pexels-chan-walrus-958545.jpg)
+
+## Overview
 
 As a contractor of the food maganize, Eat, Safe, Love, we will evaluate some ratings data in order to help journalist and food critics determine where to focus future articles. The ratings data was obtained from the UK Food Standards Agency, that gives establishments food hygiene ratings. 
 
 Purpose: To gain a better understanding of MongoDB and PyMongo utiziling data on food ratings. The project is divided into three parts: Database and Jupyter Notebook Set Up, Update the Database, and Exploratory Analysis.
 
-# Resources
+## Resources
 [Establishments](Resources/establishments.json)
 
 Programs used: MongosDB, Python, Jupyter Notebook, Py Mongo
 
-# Part 1: Database and Jupyter Notebook Set Up
+## Part 1: Database and Jupyter Notebook Set Up
 File used: [Database and Jupyter Notebook Set Up](NoSQL_setup_starter.ipynb)
 
 In this part, the focus is on setting up the database and Jupyter Notebook environment. 
@@ -30,7 +32,7 @@ Then the following was completed for set up:
 - Using find_one() and pprint to display one document from the establishments collection.
 
 
-# Part 2: Update the Database
+## Part 2: Update the Database
 File used: [Database and Jupyter Notebook Set Up](NoSQL_setup_starter.ipynb)
 
 In this part, the database is updated with new data and modifications. The following were completed: 
@@ -42,7 +44,7 @@ In this part, the database is updated with new data and modifications. The follo
 - Performing a count_documents() check before and after the removal of the Dover documents.
 - Using update_many() to convert the latitude and longitude fields from strings to decimal numbers and RatingValue to integers
 
-# Part 3: Exploratory Analysis
+## Part 3: Exploratory Analysis
 File used: [Analysis](NoSQL_analysis_starter.ipynb)
 
 In this part, exploratory analysis wa performed on the database. The following was analyzed: 
